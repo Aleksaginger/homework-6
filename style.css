@@ -5,7 +5,7 @@
 }
 body {
     margin: 0px;
-    background-image: url(patt.png);
+    background-image: url("img/patt.png");
     font-family: 'Roboto', sans-serif;
 }
 .container-1 {
@@ -16,9 +16,10 @@ body {
     margin: 0 auto;
 }
 .header {
-   
-   
-    background-color: #cadbed;  
+    display: flex;
+    height: 100px;
+    align-items: center;
+    background-color: rgba(255,255,255,0.75);  
 }
 
 .row-1 {
@@ -95,7 +96,7 @@ input::placeholder {
     color: #2c71b8;
 }
 .picture {
-    background-image: url(icon4.png);
+    background-image: url(img/icon4.png);
     background-repeat: no-repeat;
     background-position: 9px 8px;
     background-color: #2c71b8;
@@ -105,7 +106,7 @@ input::placeholder {
     left: 195px;
 }
 .basket {
-    background-image: url(icon1.png);
+    background-image: url(img/icon1.png);
     background-repeat: no-repeat;
     background-color: #ffffff;
     background-position: 10px 11px;
@@ -129,7 +130,6 @@ input::placeholder {
 }
 .submenu {
     display: none;
-    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     list-style: none;
     background-color: #2c71b8;
@@ -162,7 +162,7 @@ input::placeholder {
     position: relative;
     width: 100%;
     height: 400px;
-    background: url(patt.png);
+    background: url(img/patt.png);
     border-bottom: 1px solid #ffffff; 
 }
 
@@ -207,7 +207,7 @@ input::placeholder {
 
 .prev {
     left: 0;
-    background: url(left.png);
+    background: url(img/left.png);
     background-repeat: no-repeat;
     background-position: center, center;
     background-size: 50px 50px;
@@ -215,7 +215,7 @@ input::placeholder {
 
 .next {
     right: 0;
-    background-image: url(right.png);
+    background-image: url(img/right.png);
     background-repeat: no-repeat;
     background-position: center, center;
     background-size: 50px 50px;
@@ -470,7 +470,7 @@ input::placeholder {
     content: "";
     width: 15px; 
     height: 15px; 
-    background-image: url(icon.png);
+    background-image: url(img/icon.png);
     background-repeat: no-repeat;
     position:absolute;
     right:10px;
